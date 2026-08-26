@@ -1,5 +1,5 @@
 context:
-  version: "0.2.0"
+  version: "0.2.1"
   python_min: "3.11"
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/s/spaday-regular-table/spaday_regular_table-${{ version }}.tar.gz
-  sha256: 14142dd77ef8046b8dd638aa8f010f696048ce700ed074ef17eb62b263bf8ce3
+  sha256: 693afb28c242541b9990a4c42961e049537b3e0ec4d80dedf6fe98d94ec45c88
 
 build:
   number: 0
