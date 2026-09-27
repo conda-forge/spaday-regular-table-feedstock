@@ -1,5 +1,5 @@
 context:
-  version: "0.2.2"
+  version: "0.3.0"
   python_min: "3.11"
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/s/spaday-regular-table/spaday_regular_table-${{ version }}.tar.gz
-  sha256: 09cf048a99de196e750bc24613e40b642c0b88069b67deba7cad0abba188904b
+  sha256: cee64ec2fca8255d9ecac57fb37456a2aaaf8997edbb588631ac839fe2bc48b2
 
 build:
   number: 0
@@ -27,7 +27,7 @@ requirements:
     - hatch-js
   run:
     - python >=${{ python_min }}
-    - spaday >=0.6.0
+    - spaday >=0.11.1,<1.0
 
 tests:
   - python:
